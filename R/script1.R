@@ -6,6 +6,10 @@ g <- function(x){
   (x + 10 ) / 2
 }
 
+h <- function(x) {
+  f(stringr::str_length(x))
+}
+
 l <- function(x){
   purrr::map(x, stringr::str_length)
 }
