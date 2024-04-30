@@ -20,3 +20,9 @@ l <- function(x){
 #use_r() to save definition of function automatically in /R directory.
 #load_all()
 #exists("f", where = globalenv(), inherits = FALSE)
+
+# Documentation for z
+# Even more documentation
+z <- function(x) {
+  x^2
+}
